@@ -1,0 +1,255 @@
+@charset 'UTF-8';
+
+html,
+html {
+	box-sizing: border-box;
+	font-family: arial; 
+	margin: 0;
+    padding: 0 0 0 0;
+}
+body {
+	font-size: 1vw;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*img { 
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+*/
+
+.hero {
+	position: relative;
+	height: 54vw;
+	z-index: 0;
+}
+
+.hero-content {
+	color: #fff;
+	position: fixed;
+	z-index: 200;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.banner {
+	position: fixed;
+	width: 100vw;
+	height: 100%;
+}
+
+.intro {
+	position: relative;
+	background: #fff;
+	z-index: 400;
+	padding: 4em 4em;
+}
+
+.intro hr {
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.intro p {
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	line-height: 1.8;
+	letter-spacing: .325em;
+}
+
+a, a:visited {
+	color: inherit;
+}
+
+
+.kv {
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	z-index: 200;
+	padding: 0;
+}
+
+.kv-article {
+	display: flex;
+}
+
+.kv-description {
+	color: #fff;
+	padding: 11.25em 13em 11.5em;
+	width: 50%;
+}
+
+.kv-bild1 {
+	padding: 18% 4%;
+	background-image: -webkit-linear-gradient(top left, #ADD96A, #308C72 100%);
+	background-image: -o-linear-gradient(top left, #ADD96A, #308C72 100%); 
+	background-image: linear-gradient(top left, #ADD96A, #308C72 100%);
+	width: 50%;
+}
+
+.kv-bild2 {
+	padding: 18% 4%;
+	background-image: -webkit-linear-gradient(top left, #0378A6, #B6F2EC 100%);
+	background-image: -o-linear-gradient(top left, #0378A6, #B6F2EC 100%); 
+	background-image: linear-gradient(top left, #0378A6, #B6F2EC 100%);
+	width: 50%;
+	
+}
+
+.kv-bild3 {
+	padding: 25% 4% ;
+	background-image: -webkit-linear-gradient(top left, #038C33, #9AD9B0 100%);
+	background-image: -o-linear-gradient(top left, #038C33, #9AD9B0 100%); 
+	background-image: linear-gradient(top left, #038C33, #9AD9B0 100%);
+	width: 50%;
+}
+
+.kv-bild1 img {
+	position: relative;
+	z-index: 100;
+	width: 100%;
+}
+
+.kv-bild3 img {
+	position: relative;
+	z-index: 100;
+	width: 100%;
+}
+
+.kv-bild2 img {
+	position: relative;
+	z-index: 100;
+	width: 100%;
+}
+
+.kv-bild1 figure {
+	position: relative;
+}
+
+.kv-titel {
+	font-size: 3em;
+	font-weight: 100;
+	padding: 2em 0 0 0;
+	letter-spacing: .36em;
+	text-transform: uppercase;
+	line-height: 1.5;
+	max-width: 9em;
+	margin-bottom: .5em;
+}
+
+.kv-text {
+	font-size: 1.1em;
+	line-height: 1.9;
+	opacity: .8;
+	max-width: 20em;
+}
+
+header {
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 1.5em;
+	position: fixed;
+	background: rgba(160,160,160,0.40);
+	z-index: 1000;
+}
+
+.site-logo {
+	position: relative;
+	display: block;
+	float: left;
+	width: 4em;
+}
+
+.site-logo img {
+	width: 3em;
+}
+
+.logo {
+	opacity: 1;
+}
+
+.site-nav {
+	position: relative;
+	float: right;
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	display: block !important;
+	width: 80%;
+	padding: .75em 1em 0 0;
+	opacity: .95;
+	background: none;
+}
+
+.site-nav ul {
+	list-style-type: none;
+	margin: 0 1em 0 0;
+	text-align: right;
+}
+.site-nav ul li {
+	display: inline;
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+.site-nav ul li a {
+	font-size: .85em;
+	padding-bottom: .5em;
+	text-decoration: none;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	color: #fff;
+	-webkit-transition: color .3s;
+	transition: color .3s;
+}
+.site-nav ul li a:hover {
+	outline: none;
+	border-bottom: 1px solid white;
+}
+.banner img {
+	width: 100%;
+}
+
+.hero h1 {
+	margin-bottom: 1.5%;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
+	margin-left: .7em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 8.5em;
+	letter-spacing: .85em;
+}
+
+.hero h3 {
+	font-size: 1.5em;
+	font-weight: 100;
+	line-height: 2.75;
+	letter-spacing: .35em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+}
+
+.see-more {
+	font-size: 1em;
+	display: inline-block;
+	margin-top: 4.1em;
+	padding: 0 0 .4em 0;
+	transition: all .3s;
+	text-decoration: none;
+}
+.see-more:hover {
+	border-bottom: 1px solid white;
+}

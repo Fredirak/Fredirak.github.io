@@ -24,7 +24,7 @@
 		
 		<main>
 			<div class="anmeldungcontainer">
-				<form onsubmit="sendEmail(); reset(); return false;">
+				<form onsubmit="sendEmail(); reset(); return false; ">
 					<h3>Anmeldung</h3>
 					<input type="text" id="name" placeholder="Ihr Name" required>
 					<input type="email" id="email" placeholder="Email" required>
@@ -32,24 +32,9 @@
 					<button type="submit">Abschicken</button>
 				</form>
 			</div>
-			
-			<script src="https://smtpjs.com/v3/smtp.js">
-			</script>
-			<script>
-				function sendEmail(){					
-					Email.send({
-						SecureToken : "c80c487c-0628-428b-bf73-77997b3f2aff",
-						To : 'frederik.niederhoff@gmx.de',
-						From : document.getElementById("email").value,
-						Subject : "New Contact Form",
-						Body : "Name: " + documant.getElementById("name").value + 
-								"<br> Email: " + document.getElementById("email").value + 
-								"<br> Nachricht: " + document.getElementById("message").valu"
-					}).then(
-					  message => alert("Anmeldung wurde verschickt")
-					);
-				}
-			</script>
+		
+			<script src="https://smtpjs.com/v3/smtp.js"></script>
+			<script src="script.js"></script>
 		</main>
 	</body>
 </html>

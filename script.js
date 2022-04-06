@@ -1,14 +1,15 @@
 function sendEmail(){
-	alert('Hallo!');
 	Email.send({
-		SecureToken : "c80c487c-0628-428b-bf73-77997b3f2aff",
+		Host : "smtp.gmail.com",
+		Username : "milf69.hunter187@gmail.com",
+		Password : "greenjoker",
 		To : 'milf69.hunter187@gmail.com',
 		From : document.getElementById("email").value,
 		Subject : "New Contact Form",
-		Body : "Name: " + documant.getElementById("name").value + 
+		Body : "Name: " + document.getElementById("name").value + 
 				"<br> Email: " + document.getElementById("email").value + 
-				"<br> Nachricht: " + document.getElementById("message").valu"
+				"<br> Nachricht: " + document.getElementById("message").value
 	}).then(
-	  message => alert("Anmeldung wurde verschickt")
+	  message => alert('Anmeldung wurde verschickt')
 	);
 }

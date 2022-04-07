@@ -366,9 +366,6 @@ form input:hover, form textarea:hover{
 	align-self: center;
 }
 
-
-
-
 .socialmedia ul, .kontaktinfo ul{
 	list-style-type: none;
 	padding-left: 0;
@@ -389,10 +386,43 @@ form input:hover, form textarea:hover{
 	margin: 6%;
 }
 
+.uberprojekt {
+	width: 100%;
+	background: #1E402D;
+	display: flex;
+	padding: 2% 0 0 0;
+}
 
+.uberprojektbox {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	margin: 2%;
+	width: 50%;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.uberprojektbox img{
+	width: 40%;
+}
 
+.uberprojektbox h2{
+	align-self: center;
+	font-weight: 900;
+}
 
+.uberprojektbox ul {
+	list-style-type: none;
+}
+
+.uberprojektbox ul li{
+	margin-bottom: 1em;
+	
+}
 
 
 

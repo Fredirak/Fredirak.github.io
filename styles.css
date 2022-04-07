@@ -327,3 +327,39 @@ input[type=number] {
 form input:hover, form textarea:hover{
 	background: #68B88B;
 }
+
+.kontakt {
+	width: 100%;
+	height: 100vh;
+	background: #1E402D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5% 0;
+}
+
+.kontaktinfo {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 45%;
+	max-width: 300px;
+	border-radius: 10px;
+	margin: 10%;
+}
+
+.socialmedia {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 45%;
+	max-width: 300px;
+	border-radius: 10px;
+	margin: 10%;
+}
+
+.kontaktinfo ul{
+	list-style-type: none;
+}

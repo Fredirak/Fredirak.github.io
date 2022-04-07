@@ -6,7 +6,7 @@
 		<link href="styles.css" rel="stylesheet" type="text/css">
 	</head>
 
-	<body>
+	<body style="background: #1E402D">
 		<header>
 			<a class="site-logo">
 				<img class="logo" src="images/logo_weiß.png" alt="<GJ>">
@@ -26,9 +26,11 @@
 			<div class="anmeldungcontainer">
 				<form onsubmit="sendEmail(); reset(); return false; ">
 					<h3>Anmeldung</h3>
-					<input type="text" id="name" placeholder="Ihr Name" required>
-					<input type="email" id="email" placeholder="Email" required>
-					<textarea id="message" rows="4" placeholder="Nachricht"></textarea>
+					<input type="text" id="name" placeholder="Ihr Name*" required>
+					<input type="email" id="email" placeholder="Email*" required>
+					<input type="text" id="gruppe" placeholder="Name Ihrer Gruppe*" required>
+					<input type="number" id="number" placeholder="Anzahl der Mitspieler*" required>
+					<textarea id="message" rows="4" placeholder="Kommentare/Fragen"></textarea>
 					<button type="submit">Abschicken</button>
 				</form>
 			</div>

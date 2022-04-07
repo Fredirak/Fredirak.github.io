@@ -245,7 +245,7 @@ header {
 form h3{
 	color: black;
 	font-weight: 800;
-	font-size: 3em;
+	font-size: 4em;
 	margin-bottom: 20px;
 	text-transform: none;
 	align-self: center;
@@ -311,4 +311,19 @@ form {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 5% 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+form input:hover, form textarea:hover{
+	background: #68B88B;
 }

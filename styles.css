@@ -345,6 +345,7 @@ form input:hover, form textarea:hover{
 	padding: 2vw 4vw;
 	width: 45%;
 	max-width: 300px;
+	min-width: 100px;
 	border-radius: 10px;
 	margin: 10%;
 }
@@ -356,10 +357,46 @@ form input:hover, form textarea:hover{
 	padding: 2vw 4vw;
 	width: 45%;
 	max-width: 300px;
+	min-width: 100px;
 	border-radius: 10px;
 	margin: 10%;
 }
 
-.kontaktinfo ul{
-	list-style-type: none;
+.socialmedia h3, .kontaktinfo h3{
+	align-self: center;
 }
+
+
+
+
+.socialmedia ul, .kontaktinfo ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.kontaktinfo ul li{
+	margin-bottom: 1em;
+}
+
+.socialmedia ul li{
+	display: inline;
+	margin-left: 0;
+}
+
+.socialmedia ul li a img{
+	width: 20%;
+	max-width: 60px;
+	margin: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

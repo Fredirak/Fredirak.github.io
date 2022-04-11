@@ -344,7 +344,7 @@ form input:hover, form textarea:hover{
 	display: flex;
 	flex-direction: column;
 	border-radius: 10px;
-	margin: 2%;
+	margin: 2vw 4vw;
 	width: 45%;
 	padding: 2%;
 	justify-content: center;
@@ -361,7 +361,7 @@ form input:hover, form textarea:hover{
 	padding: 2vw 4vw;
 	width: 45%;
 	border-radius: 10px;
-	margin: 10%;
+	margin: 2%;
 	font-size: 1.1em;
 	line-height: 1.9;
 	opacity: .8;

@@ -450,6 +450,8 @@ footer {
 	color: white;
 	font-size: 2em;
 	text-align: center;
+	z-index: 600;
+	position: relative;
 }
 
 footer a {

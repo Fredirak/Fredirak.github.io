@@ -12,6 +12,6 @@
 				"<br> Anzahl Mitspieler: " + document.getElementById("number").value +
 				"<br> Nachricht: " + document.getElementById("message").value
 	}).then(
-	  message => alert('Anmeldung wurde verschickt')
+	  message => alert('Anmeldung wurde verschickt. Sie erhalten innerhalb der nächsten 24-48 Stunden eine Antwort von unserem Team.')
 	);
 }

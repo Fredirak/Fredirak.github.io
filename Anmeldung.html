@@ -24,7 +24,14 @@
 		
 		
 		<main>
-			<div class="anmeldungcontainer">
+			
+			<div class="kontakt">
+				<div class="socialmedia" style="align-content: center; color: red;">
+					<p><strong>Achtung!</strong> Es gab technische Schwierigkeiten mit unserem Anmeldeformular! Bitte schreiben Sie uns für die Anmeldung eine Email an greenjoker.upmv@gmail.com bis wir das Problem gelöst kriegen.</p>
+				</div>
+			</div>
+			
+			<div class="anmeldungcontainer" style="margin: 0; padding: 0;">
 				<form onsubmit="sendEmail(); reset(); return false; ">
 					<h3>Anmeldung</h3>
 					<input type="text" id="name" placeholder="Ihr Name*" required>
@@ -32,7 +39,8 @@
 					<input type="text" id="gruppe" placeholder="Name Ihrer Gruppe*" required>
 					<input type="number" id="number" placeholder="Anzahl der Mitspieler*" required>
 					<textarea id="message" rows="4" placeholder="Kommentare/Fragen"></textarea>
-					<button type="submit">Abschicken</button>
+					<!-- <button type="submit">Abschicken</button> -->
+					<button type="reset">Abschicken</button>
 				</form>
 			</div>
 		
